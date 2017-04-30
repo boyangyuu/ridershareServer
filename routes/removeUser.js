@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 })
 
 router.post('/', (req, res, next) => {
-    MongoClient.connect("mongodb://admin:admin@ds115701.mlab.com:15701/cycling_club", (err, db) => {
+    MongoClient.connect( "mongodb://admin:admin@ds127391.mlab.com:27391/rider2yby", (err, db) => {
         if (err) {
             console.log('Error: ' + err);
             return false;
