@@ -2,7 +2,6 @@ var express = require('express');
 var router = express.Router();
 var mongojs = require('mongojs');
 var dbPath = "mongodb://admin:admin@ds127391.mlab.com:27391/rider2yby";
-
 var db = mongojs(dbPath);
 var ObjectId = mongojs.ObjectId;
 
